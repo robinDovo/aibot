@@ -38,7 +38,7 @@ def get_biglottery():
 
 def lottery(request):
     text = get_biglottery().replace('\n', '<br>')
-    return HttpResponse(f'<h1>{get_biglottery()}</h1>')
+    return HttpResponse(f'<h1>{text}</h1>')
 
 
 @csrf_exempt

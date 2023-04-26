@@ -17,7 +17,7 @@ gunicorn==20.1.0
 idna==3.3
 line-bot-sdk==2.2.1
 multidict==6.0.2
-numpy==1.24.2
+numpy==1.21.6
 pandas==1.5.3
 platformdirs==2.5.2
 pycodestyle==2.10.0
